@@ -1,0 +1,285 @@
+/*@font-face {
+    font-family: principal;
+    src: url(../fuentes/EBGaramond-Italic-VariableFont_wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    transition: 0.5;
+}
+.container{
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    
+    display: table;
+    width: 100%;
+    height: 300px; 
+    background-color:white;
+    background-image: url(../img/encabezado.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+footer{
+    display: table;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding-top: 1.5%;
+    margin-top: 1%;
+    font-family: principal;
+}
+
+.cuerpo{
+    display: table;
+    padding: 2% 2%;
+    width: 100%;
+    background-color:#EBC0DE;
+    font-family: principal;
+}
+
+p{
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: table;
+    text-align: justify;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    font-family: principal;
+}
+
+.imagen-horizontal{
+    display: table;
+    margin: auto;
+    width: 600px;
+    height: 400px;
+    border-radius: 1.5%;
+}
+
+.imagen-vertical{
+    display: table;
+    margin: auto;
+    width: 400px;
+    height: 500px;
+    border-radius: 1.5%;
+}
+
+nav{
+   background-color: black;
+   color: white;
+   font-family: principal;
+}
+nav ol{
+    display: flex;
+}
+nav ol li{
+    list-style: none;
+}
+
+nav ol li a{
+    text-decoration: none;
+    display: block;
+    padding: 18px 18px;
+    color: white;
+    font-family: principal;
+}
+
+h2{
+    text-align: center;
+    margin-left: 4%;
+    margin-bottom: 1%;
+    font-family: principal;
+}
+h3{
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 5%;
+    font-family: principal;
+}
+h4{
+    text-align: justify;
+    margin-top: 0.5%;
+    margin-left: 5%;
+    font-family: principal;
+    color: fuchsia;
+}*/
+@font-face {
+    font-family: principal;
+    src: url(fuentes/EBGaramond-Italic-VariableFont_wght);
+
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    transition: 0.5;
+}
+.container{
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    
+    display: table;
+    width: 100%;
+    height: 300px; 
+    background-color: antiquewhite;
+    background-image: url(../img/encabezado.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+
+
+footer{
+    display: table;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    color:#C859DE ;
+    text-align: center;
+    padding-top: 1.5%;
+    font-family: principal;
+    text-align: center;
+}
+.cuerpo{
+    display: table;
+    width: 100%;
+    background-color:#C29DF5;
+    font-family: principal;
+    text-align: justify;
+}
+
+p{
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: table;
+    text-align: justify;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    font-family: principal;
+    text-align: justify;
+}
+
+.imagen-horizontal{
+    display: table;
+    margin: auto;
+    width: 600px;
+    height: 400px;
+}
+
+.imagen-vertical{
+    display: table;
+    margin: auto;
+    width: 300px;
+    height: 400px;
+}
+
+nav{
+   background-color: black;
+   color: white;
+}
+nav ol{
+    display: flex;
+}
+nav ol li{
+    list-style: none;
+}
+
+nav ol li a{
+    text-decoration: none;
+    display: block;
+    padding: 18px 18px;
+    color: white;
+    font-family: principal;
+}
+
+h2{
+    margin-left: 4%;
+    margin-bottom: 1%;
+    font-family: principal;
+    text-align: center;
+}
+h3{
+    margin-top: 1%;
+    margin-left: 5%;
+    font-family: principal;
+    text-align: center;
+    color:white;
+}
+h4{
+    margin-top: 1%;
+    margin-left: 5%;
+    font-family: principal;
+    text-align: center;
+    color: white;
+}
+button{
+    width: 150px;
+    height: 50px;
+    background-color: lightblue;
+    color: black;
+    border-radius: 10%;
+    border-color: purple;
+    font-family: principal;
+}
+
+button:hover{
+    background-color: lightblue;
+    color: purple;
+}
+
+input[type=text]{
+    width: 300px;
+    height: 25px;
+    padding-left: 1%;
+    border-radius: 5%;
+    font-family: principal;
+}
+input[type=email]{
+    width: 300px;
+    height: 25px;
+    padding-left: 1%;
+    border-radius: 5%;
+    font-family: principal;
+}
+
+textarea{
+    width: 300px;
+    height: 250px;
+    padding-left: 1%;
+    padding-top: 0.5%;
+    border-radius: 5%;
+    font-family: principal;
+}
+
+form{
+    display: block;
+    float: left;
+    margin-right: 150px;
+    font-family: principal;
+    margin-left: 515px;
+}
+
+iframe{
+    border: 1px solid black;
+    border-radius: 5px;
+}
